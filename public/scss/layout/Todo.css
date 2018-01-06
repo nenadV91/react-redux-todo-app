@@ -1,0 +1,36 @@
+.todo {
+  padding: 10px; }
+  .todo .todo-content {
+    box-shadow: 0px 1px 10px 0px rgba(193, 193, 193, 0.68);
+    padding: 10px; }
+    .todo .todo-content .date {
+      font-size: 12px;
+      color: #777;
+      margin-bottom: 10px; }
+    .todo .todo-content .controls {
+      margin-top: 10px; }
+      .todo .todo-content .controls ul {
+        list-style-type: none;
+        display: flex;
+        padding-left: 0; }
+        .todo .todo-content .controls ul li {
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          text-align: center;
+          cursor: pointer;
+          line-height: 25px;
+          margin-right: 10px;
+          box-shadow: 0px 1px 10px 0px rgba(193, 193, 193, 0.68);
+          transition: all 0.3s ease-in;
+          font-size: 14px;
+          color: #777; }
+          .todo .todo-content .controls ul li:hover {
+            background: #343A40;
+            color: white; }
+  .todo.completed .todo-content {
+    opacity: .6; }
+    .todo.completed .todo-content p {
+      text-decoration: line-through; }
+
+/*# sourceMappingURL=Todo.css.map */

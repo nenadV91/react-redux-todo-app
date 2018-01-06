@@ -1,0 +1,23 @@
+body {
+  overflow-x: hidden;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fullPage {
+  height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  > .row {
+    width: 100%;
+  }
+}
+
+.main-content {
+  padding-top: 40px;
+}

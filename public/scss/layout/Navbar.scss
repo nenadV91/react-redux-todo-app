@@ -1,0 +1,26 @@
+.navbar-nav {
+  a {
+    cursor: pointer;
+  }
+
+  .dropdown-menu {
+    button {
+      cursor: pointer;
+    }
+    
+    .toggle{
+      display: flex;
+      align-items: center;
+
+      input {
+        margin-right: 10px;
+        padding-top: 2px;
+      }
+
+      span {
+        padding-top: 5px;
+      }
+    }
+
+  }
+}

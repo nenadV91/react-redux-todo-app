@@ -1,0 +1,53 @@
+.todo {
+  padding: 10px;
+
+  .todo-content {
+    box-shadow: 0px 1px 10px 0px rgba(193, 193, 193, 0.68);
+    padding: 10px;
+
+    .date {
+      font-size: 12px;
+      color: #777;
+      margin-bottom: 10px;
+    }
+
+    .controls {
+      margin-top: 10px;
+
+      ul {
+        list-style-type: none;
+        display: flex;
+        padding-left: 0;
+
+        li {
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          text-align: center;
+          cursor: pointer;
+          line-height: 25px;
+          margin-right: 10px;
+          box-shadow: 0px 1px 10px 0px rgba(193, 193, 193, 0.68);
+          transition: all 0.3s ease-in;
+          font-size: 14px;
+          color: #777;
+
+            &:hover {
+              background: #343A40;
+              color: white;
+            }
+        }
+      }
+    }
+  }
+
+  &.completed {
+    .todo-content {
+      opacity: .6;
+
+      p {
+        text-decoration: line-through;
+      }
+    }
+  }
+}

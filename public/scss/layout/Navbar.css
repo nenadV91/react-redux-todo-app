@@ -1,0 +1,14 @@
+.navbar-nav a {
+  cursor: pointer; }
+.navbar-nav .dropdown-menu button {
+  cursor: pointer; }
+.navbar-nav .dropdown-menu .toggle {
+  display: flex;
+  align-items: center; }
+  .navbar-nav .dropdown-menu .toggle input {
+    margin-right: 10px;
+    padding-top: 2px; }
+  .navbar-nav .dropdown-menu .toggle span {
+    padding-top: 5px; }
+
+/*# sourceMappingURL=Navbar.css.map */
